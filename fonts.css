@@ -1,21 +1,37 @@
 @font-face {
     font-family: 'Syne';
     font-weight: normal;
-    src: url('./fonts/Syne/static/Syne-Regular.ttf') format('truetype');
+    src: url('./fonts/Sync/static/Sync-Regular.ttf') format('truetype');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Syne';
     font-weight: bold;
-    src: url('./fonts/Syne/static/Syne-Bold.ttf') format('truetype');
+    src: url('./fonts/Sync/static/Sync-Bold.ttf') format('truetype');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Syne';
-    src: url('./fonts/Syne/static/Syne-ExtraBold.ttf') format('truetype');
+    src: url('./fonts/Sync/static/Sync-ExtraBold.ttf') format('truetype');
     font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Syne';
+    src: url('./fonts/Sync/static/Sync-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Syne';
+    src: url('./fonts/Sync/static/Sync-SemiBold.ttf') format('truetype');
+    font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
