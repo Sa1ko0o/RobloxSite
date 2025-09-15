@@ -3,13 +3,13 @@ body {
 }
 
 .header-panel {
-    font-family: Syne;
+    font-family: 'Syne', sans-serif; /* Добавил fallback шрифт */
     font-weight: bold;
     font-size: 20px;
     color: #7B4B33;
     display: flex;
     justify-content: center;
-    align-items: center; /* Выравниваем по центру по вертикали */
+    align-items: center;
     gap: 50px;
     padding: 5px;
     background-color: #FEE4D8;
@@ -48,19 +48,19 @@ h1 {
     padding: 50px;
     display: flex;
     justify-content: center;
-    align-items: center; /* Выравниваем по центру по вертикали */
+    align-items: center;
     margin: 0;
 }
 
 p {
-    font-family: 'WorkSans', sans-serif;
+    font-family: 'WorkSans', sans-serif; /* Добавил fallback шрифт */
     font-weight: bold;
     font-size: 20px;
     color: #A17F6E;
     padding: 10px;
     display: flex;
     justify-content: center;
-    align-items: center; /* Выравниваем по центру по вертикали */
+    align-items: center;
     margin: 0;
 }
 
@@ -69,15 +69,33 @@ p {
     font-weight: 800;
     font-size: 32px;
     color: #7B4B33;
-    padding: 15px 125px; /* Уменьшил отступы */
-    display: block; /* Или block */
-    text-align: center; /* Выравнивание текста */
+    padding: 15px 125px;
+    display: block;
+    text-align: center;
     text-decoration: none;
     background-color: #E6CFAB;
     border-radius: 30px;
-    width: fit-content; /* Ширина по содержимому */
-    margin: 0 auto; /* Автоматические отступы по бокам = центрирование */
-    /* остальные стили */
+    width: fit-content;
+    margin: 0 auto;
     margin-top: 50px;
 }
 
+/* Добавьте эти стили для иконок фич */
+.feature-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.feature {
+    text-align: center;
+    font-family: 'WorkSans', sans-serif;
+    color: #7B4B33;
+}
