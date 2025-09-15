@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Syne';
+    font-weight: normal;
+    src: url(/fonts/Syne/static/Syne-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Syne';
+    font-weight: bold;
+    src: url(/fonts/Syne/static/Syne-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Syne';
+    src: url('/fonts/Syne/static/Syne-ExtraBold.ttf') format('truetype');
+    font-weight: 800; /* Без px! */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('/fonts/Work_Sans/static/WorkSans-ExtraBold.ttf') format('truetype');
+    font-weight: 800; /* Без px! */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'WorkSans';
+    src: url('/fonts/Work_Sans/static/WorkSans-Bold.ttf') format('truetype');
+    font-weight: bold; /* Без px! */
+    font-style: normal;
+    font-display: swap;
+}
